@@ -1,15 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 html{
     font-size: 16px;
     scroll-behavior: smooth;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     line-height: 1.6;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 1rem;
@@ -28,5 +28,207 @@ a:hover{
 img{
     vertical-align: middle;
     max-width: 100px;
-    
+
 }
+.total{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar-left{
+    display: flex;
+    margin-right: auto;
+    margin-left: 20vw;
+    margin-top: 3px;
+    margin-bottom: auto;
+}
+.navbar-left .super{
+    margin-top: 15px;
+}
+.navbar-left h2{
+    margin-right: 6vw;
+    margin-bottom: auto;
+}
+.navbar-right{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar-right h2{
+    margin-right: 20px;  
+}
+.navbar-right p{
+    font-size: 20px;
+    width: 300px;
+    line-height: 1.5;
+    margin-top: -15px;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+}
+.para a{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: -75px;
+}
+.main h1{
+    margin-left: 10vw;
+}
+.main-bottom{
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
+.main-bottom img{
+    max-width: 100%;
+    width: 100%;
+    height: 53vh;
+}
+.main-div-1{
+    display: flex;
+}
+.main-div-1 h2{
+    margin-bottom: auto;
+}
+.div-of-div{
+    margin-left: auto;
+    margin-right: 22.5vw;
+}
+.footer{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.inner-footer{
+    width: 300px;
+}
+.inner-footer p{
+    text-align: center;
+}
+
+.main img {
+    border: 1px solid black;
+    width: 55vw;
+    height: 30vw;
+    max-width: 100%;
+    cursor: pointer;
+} 
+
+/* Default background color */
+body {
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+.works{
+    margin-top: -4vh;
+}
+
+.first-image:hover {
+    background-color: lightgray;
+}
+body:has(.first-image:hover) {
+    background-color: lightgray;
+}
+.second-image:hover {
+    background-color: green;
+}
+body:has(.second-image:hover) {
+    background-color: green;
+}
+.third-image:hover {
+    background-color: pink;
+}
+body:has(.third-image:hover) {
+    background-color: pink;
+}
+.fourth-image:hover {
+    background-color: rgb(150, 155, 84);
+}
+body:has(.fourth-image:hover) {
+    background-color: rgb(150, 155, 84);
+}
+.fifth-image:hover {
+    background-color: rgb(255, 170, 51);
+}
+body:has(.fifth-image:hover) {
+    background-color: rgb(255, 170, 51);
+}
+.sixth-image:hover {
+    background-color: rgb(165, 42, 42);
+}
+body:has(.sixth-image:hover) {
+    background-color: rgb(165, 42, 42);
+}
+.footer:hover {
+    background-color: rgb(165, 42, 42);
+}
+body:has(.footer:hover) {
+    background-color: rgb(165, 42, 42);
+}
+.main-bottom:hover {
+    background-color: rgb(165, 42, 42);
+}
+body:has(.main-bottom:hover) {
+    background-color: rgb(165, 42, 42);
+}
+.view-work{
+    margin-top: 3vw;
+    margin-right: 10vw;
+}
+.brand{
+    color: gray;
+}
+/* 
+Flower container fixed to bottom */
+.flower-container {
+    position: fixed;
+    bottom: 0;
+    margin-left: 100px;
+    bottom: -20;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 200px;
+    /* z-index: 9999; */
+    rotate: 270deg;
+    margin-right: auto;
+
+  }
+  
+  /* Petals (rectangle lines) */
+  .petal {
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    background-color: black;
+    top: 10px;
+    left: 45px;
+    transform-origin: bottom center;
+  }
+  
+  .petal1 { transform: rotate(0deg); }
+  .petal2 { transform: rotate(20deg); }
+  .petal3 { transform: rotate(55deg); }
+  .petal4 { transform: rotate(90deg); }
+  .petal5 { transform: rotate(125deg); }
+  .petal6 { transform: rotate(155deg); }
+  .petal7 { transform: rotate(180deg); }
+  
